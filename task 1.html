@@ -5,7 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TASK 1</title>
-    <script src="task 1.js"></script>
+    <script>
+	function person(FirstName ,LastName,OfficeAddress){
+    this.FirstName=FirstName,
+    this.LastName=LastName,
+    this.OfficeAddress=OfficeAddress
+}
+
+var Person1 = new person("Virat","Kohli","Banglore");
+var Person2 = new person("MS","Dhoni","Chennai");
+var Person3 = new person("Srikar","Dhawan","New Delhi");
+
+console.log("Person1:")
+console.log("FirstName: " + Person1.FirstName)
+console.log("LastName: " + Person1.LastName)
+console.log("OfficeAddress: " + Person1.OfficeAddress)
+
+console.log("Person2:")
+console.log("FirstName: " + Person2.FirstName)
+console.log("LastName: " + Person2.LastName)
+console.log("OfficeAddress: " + Person2.OfficeAddress)
+
+console.log("Person3:")
+console.log("FirstName: " + Person3.FirstName)
+console.log("LastName: " + Person3.LastName)
+console.log("OfficeAddress: " + Person3.OfficeAddress)
+	</script>
 </head>
 <body>
     <center>
